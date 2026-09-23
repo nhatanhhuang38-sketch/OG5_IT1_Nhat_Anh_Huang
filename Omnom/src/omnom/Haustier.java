@@ -26,14 +26,21 @@ public class Haustier {
 	//Eigenmethoden
 	public void fuettern (int anzahl) {
 		this.hunger = this.hunger + anzahl;
-	}
+		if (hunger > 100) {
+			this.hunger = 100; }
+		}
+	
 	
 	public void schlafen (int dauer) {
 		this.muede = this.muede + dauer;
+		if (muede > 100) {
+			this.muede = 100; }
 	}
 	
 	public void spielen (int dauer) {
 		this.zufrieden = this.zufrieden + dauer;
+		if (zufrieden > 100) {
+			this.zufrieden = 100; }
 	}
 	
 	public void heilen () {
