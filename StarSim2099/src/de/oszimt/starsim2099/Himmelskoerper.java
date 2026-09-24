@@ -15,6 +15,10 @@ public class Himmelskoerper {
 		this.name = name;
 	}
 	
+	public Himmelskoerper() {
+		super();
+	}
+
 	//Methoden
 	public double getPosX() {
 		return posX;

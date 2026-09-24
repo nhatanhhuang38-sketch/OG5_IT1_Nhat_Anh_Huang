@@ -18,6 +18,8 @@ public class Planet extends Himmelskoerper {
 		
 	}
 	
+	public Planet () {};
+	
 	// Methoden
 		public void setAnzahlHafen(int nAnzahlHafen) {
 		this.anzahlHafen = nAnzahlHafen;	

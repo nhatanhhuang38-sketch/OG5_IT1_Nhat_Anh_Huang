@@ -16,7 +16,15 @@ public class Mond extends Himmelskoerper {
 		super(posX, posY, name);
 		this.erzart = erzart;
 		}
+		
+		
 			
+		public Mond() {
+			
+		}
+
+
+
 		public String getErzart() {
 			return erzart;
 		}
