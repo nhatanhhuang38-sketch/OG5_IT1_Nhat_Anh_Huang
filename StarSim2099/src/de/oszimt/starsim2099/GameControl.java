@@ -211,7 +211,7 @@ public class GameControl {
 		int centerX = (int) mond.getPosX();
 		int centerY = (int) mond.getPosY();
 		Position transformedPos = transformPos(new Position(centerX, centerY));
-		char[][] mondShape = Planet.getDarstellung();
+		char[][] mondShape = Mond.getDarstellungMond();
 		drawShape(mondShape, MOND_COLOR, transformedPos);
 	}
 

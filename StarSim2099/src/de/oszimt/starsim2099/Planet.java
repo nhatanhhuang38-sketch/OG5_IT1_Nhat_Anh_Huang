@@ -32,7 +32,7 @@ public class Planet extends Himmelskoerper {
 	
 	// Darstellung
 	public static char[][] getDarstellung() {
-		char[][] planetShape = { { '\0', '/', '*', '*', '\\', '\0' }, { '|', '*', '*', '*', '*', '|' },
+		char[][] planetShape = { { '\0', '/', '*', '*', '\\', '\0' }, { '|', 'E', 'R', 'D', 'E', '|' },
 				{ '\0', '\\', '*', '*', '/', '\0' } };
 		return planetShape;
 

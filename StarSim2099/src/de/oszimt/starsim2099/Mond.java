@@ -38,10 +38,10 @@ public class Mond extends Himmelskoerper {
 		}
 
 	// Darstellung
-	public static char[][] getDarstellung() {
-		char[][] planetShape = { { '\0', '/', '*', '*', '\\', '\0' }, { '|', '*', '*', '*', '*', '|' },
+	public static char[][] getDarstellungMond() {
+		char[][] mondShape = { { '\0', '/', '*', '*', '\\', '\0' }, { '|', 'M', 'O', 'N', 'D', '|' },
 				{ '\0', '\\', '*', '*', '/', '\0' } };
-		return planetShape;
+		return mondShape;
 
 	}
 }
