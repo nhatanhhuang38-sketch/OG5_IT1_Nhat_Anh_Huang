@@ -46,6 +46,15 @@ public class Main {
 		meinCentaurus.setPosX(Math.random() * universumBreite);
 		meinCentaurus.setPosY(Math.random() * universumHoehe);
 		meinGame.addPlanet(meinCentaurus);
+		
+		// Mond hinzufügen
+				Mond meinMond = new Mond(universumHoehe, universumHoehe, null, universumHoehe);
+				meinMond.setName("Mond1");
+				meinMond.setErzart("Gold");
+				meinMond.setPosX(Math.random() * universumBreite);
+				meinMond.setPosY(Math.random() * universumHoehe);
+				meinGame.addMond(meinMond);
+
 
 
 		//// Ladungen hinzufügen
