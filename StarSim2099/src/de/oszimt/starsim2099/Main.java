@@ -40,7 +40,7 @@ public class Main {
 		meineErde.setPosY(Math.random() * universumHoehe);
 		meinGame.addPlanet(meineErde);
 
-		Planet meinCentaurus = new Planet(universumHoehe, universumHoehe, null, universumHoehe);
+		Planet meinCentaurus = new Planet();
 		meinCentaurus.setName("Centaurus 7");
 		meinCentaurus.setAnzahlHafen(1);
 		meinCentaurus.setPosX(Math.random() * universumBreite);
