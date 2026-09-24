@@ -20,14 +20,12 @@ public class Mond extends Himmelskoerper {
 		
 			
 		public Mond() {
-			
-		}
+			super();
+		};
 
 
 
-		public Mond(int universumHoehe, int universumHoehe2, Object name, int universumHoehe3) {
-			// TODO Auto-generated constructor stub
-		}
+		
 
 
 

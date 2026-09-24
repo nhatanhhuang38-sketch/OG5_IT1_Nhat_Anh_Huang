@@ -9,15 +9,13 @@ public class Himmelskoerper {
 	
 	//Konstruktor
 	public Himmelskoerper(double posX, double posY, String name) {
-		super();
 		this.posX = posX;
 		this.posY = posY;
 		this.name = name;
 	}
 	
 	public Himmelskoerper() {
-		super();
-	}
+	};
 
 	//Methoden
 	public double getPosX() {

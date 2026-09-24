@@ -48,7 +48,7 @@ public class Main {
 		meinGame.addPlanet(meinCentaurus);
 		
 		// Mond hinzufügen
-				Mond meinMond = new Mond(universumHoehe, universumHoehe, null, universumHoehe);
+				Mond meinMond = new Mond();
 				meinMond.setName("Mond1");
 				meinMond.setErzart("Gold");
 				meinMond.setPosX(Math.random() * universumBreite);
