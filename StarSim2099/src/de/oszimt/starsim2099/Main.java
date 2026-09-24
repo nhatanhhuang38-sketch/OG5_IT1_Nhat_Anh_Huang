@@ -33,14 +33,14 @@ public class Main {
 		meinGame.setPilot(meinHansSolo);
 		
 		// Planeten hinzufügen
-		Planet meineErde = new Planet();
+		Planet meineErde = new Planet(universumHoehe, universumHoehe, null, universumHoehe);
 		meineErde.setName("Erde");
 		meineErde.setAnzahlHafen(2);
 		meineErde.setPosX(Math.random() * universumBreite);
 		meineErde.setPosY(Math.random() * universumHoehe);
 		meinGame.addPlanet(meineErde);
 
-		Planet meinCentaurus = new Planet();
+		Planet meinCentaurus = new Planet(universumHoehe, universumHoehe, null, universumHoehe);
 		meinCentaurus.setName("Centaurus 7");
 		meinCentaurus.setAnzahlHafen(1);
 		meinCentaurus.setPosX(Math.random() * universumBreite);
