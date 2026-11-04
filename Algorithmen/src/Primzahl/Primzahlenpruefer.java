@@ -8,19 +8,18 @@ Scanner sn = new Scanner(System.in);
 
 	private long zahl = sn.nextLong();
 	
-	
-public static boolean isPrim(long zahl){
-	
-	if(zahl < 2) {
-	return false;
-	} 
-	else {
-	for (int i = 2; zahl != 0; i++) {
-		long n = zahl/i;
-		if(n == 0) {
-			return false;}
+	 public static boolean isPrim(long zahl) {
+
+	        if (zahl < 2) {
+	            return false;
+	        }
+
+	        for (long i = 2; i <= zahl / i; i++) {
+	            if (zahl % i == 0) {
+	                return false;
+	            }
+	        }
+
+	        return true;
+	    }
 	}
-	
-}
-		
-}	
