@@ -21,12 +21,14 @@ public class TestPrimzahl {
 	
 	boolean isPrim = Primzahlenpruefer.isPrim(primzahl);
 	System.out.println(isPrim);
+	stop.stopp();
 	if(isPrim == true) {
 	System.out.println(primzahl + " ist eine Primzahl");
 	}else if(isPrim == false){
 	System.out.println(primzahl + " ist keine Primzahl");
 	}
-	stop.stopp();
+	
+	
 	
 	System.out.println("Die Laufzeit in Millisekunden beträgt " + stop.getMillis() + " ms");
 	System.out.println("Die Laufzeit in Sekunden beträgt " + stop.getSeconds() + " s");
