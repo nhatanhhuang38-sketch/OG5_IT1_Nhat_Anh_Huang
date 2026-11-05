@@ -1,3 +1,4 @@
+package Analyse;
 
 import java.util.*;
 
@@ -9,19 +10,30 @@ public class TestPrimzahl {
 	
 	Stoppuhr stop = new Stoppuhr();
 	
-
+	
+	
+	
 	System.out.println("Welche Zahl soll auf eine Primzahl geprüft werden?");
 	long primzahl = sn.nextLong();
+	
+	
 	stop.start();
 	
 	boolean isPrim = Primzahlenpruefer.isPrim(primzahl);
 	System.out.println(isPrim);
-	
+	if(isPrim == true) {
+	System.out.println(primzahl + " ist eine Primzahl");
+	}else if(isPrim == false){
+	System.out.println(primzahl + " ist keine Primzahl");
+	}
 	stop.stopp();
 	
-	System.out.println(stop.getMillis());
-	System.out.println(stop.getSeconds());
-	} 
+	System.out.println("Die Laufzeit in Millisekunden beträgt " + stop.getMillis() + " ms");
+	System.out.println("Die Laufzeit in Sekunden beträgt " + stop.getSeconds() + " s");
+	
+	}
+	
+	
 	
 	
 

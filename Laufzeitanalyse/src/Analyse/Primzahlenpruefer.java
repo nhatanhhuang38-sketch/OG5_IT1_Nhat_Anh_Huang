@@ -1,3 +1,4 @@
+package Analyse;
 
 
 public class Primzahlenpruefer {
