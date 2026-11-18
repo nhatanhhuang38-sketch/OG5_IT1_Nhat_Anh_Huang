@@ -32,7 +32,6 @@ public class TestPrimzahl {
 	
 	System.out.println("Die Laufzeit in Millisekunden beträgt " + stop.getMillis() + " ms");
 	System.out.println("Die Laufzeit in Sekunden beträgt " + stop.getSeconds() + " s");
-	
 	}
 	
 	

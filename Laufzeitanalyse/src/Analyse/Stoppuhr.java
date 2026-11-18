@@ -1,6 +1,5 @@
 package Analyse;
 
-
 public class Stoppuhr {
 	  //Attribute
 	  private long anfang;
