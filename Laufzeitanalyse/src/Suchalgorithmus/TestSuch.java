@@ -14,7 +14,7 @@ public class TestSuch {
 		Scanner sn = new Scanner(System.in);
 		
 		//Liste erstellen
-		long [] liste = SortedListGenerator.getSortedList(20000000);
+		long [] liste = SortedListGenerator.getSortedList(20000001);
 		
 		//Test
 		System.out.println("Welche Zahl wollen sie in der Liste suchen?");
